@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         for (int i = 0; i < 4; i ++)
             printSmth("loh", 2);
+        System.out.println(end);
     }
 
     public static void printSmth(String a1, int b) {
@@ -11,5 +12,5 @@ public class Main {
             System.out.print(a1);
     }
 
-    public String end = "END";
+    public static String end = "END";
 }
