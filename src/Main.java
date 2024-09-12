@@ -8,6 +8,6 @@ public class Main {
 
     public static void printSmth(String a1, int b) {
         for (int i = 0; i <= b; i++)
-            System.out.println(a1);
+            System.out.print(a1);
     }
 }
